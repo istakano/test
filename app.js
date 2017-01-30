@@ -4,5 +4,5 @@
  * 参考：http://tkybpp.hatenablog.com/entry/2016/04/25/163246
  */
 const execSync = require('child_process').execSync;
-const result =  execSync('git pull').toString();
+const result =  execSync('git pull origin/develop develop').toString();
 console.log(result);
